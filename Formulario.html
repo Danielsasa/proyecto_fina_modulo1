@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+</head>
+
+<body>
+    <H1>Contactanos</H1>
+    <hr>
+    <p>llena este formulario y nos pondremos en contacto contigo lo mas pronto posible</p>
+
+
+    <form action="formulario.php">
+
+        <label for="nombre_de_usuario">Nombre:</label>
+        <input name="nombre_de_usuario" type="text" placeholder="Nombre" required>
+
+        <label for="correo">Email:</label>
+        <input name="correo" type="email" placeholder="E-mail" required>
+
+        <br><br>
+
+        <label for="tel">Telefono:</label>
+        <input name="tel" type="tel" placeholder="numero" required>
+
+        <br><br>
+
+        <label for="marcas">Marca de bicicleta</label>
+        <select name="marca">
+            <option value="" selected disabled hidden>Selecciona una opcion </option>
+            <option value="trek">Trek</option>
+            <option value="specialized">Specialized</option>
+            <option value="otra">Otra</option>
+        </select>
+
+        <br><br>
+
+        <label for="comentarios">Que te gustaria saber:</label>
+        <br>
+        <textarea name="comentarios" rows="6" cols="50"></textarea>
+
+        <br><br>
+
+        <label for="genero">Genero</label>
+        <br>
+        <input type="radio" name="genero"> Masculino
+        <input type="radio" name="genero"> Femenino
+
+        <br><br>
+
+        <label for="terminos">Aceptas nuestros terminos y condiciones </label>
+        <br>
+        <input type="checkbox">Si
+
+        <br><br>
+        <button type="submit">Enviar</button>
+
+
+
+
+
+
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="specialized.html">specialized</a></li>
+        <li><a href="TREK.html">Trek</a></li>
+    </ul>
+
+</body>
+
+<footer>
+    <p>Autor: Daniel Santamaria <br>
+    Mi GitHub: <a href="https://github.com/Danielsasa">DANIELSASA</a></p>
+  </footer>
+</html>
